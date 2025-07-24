@@ -1,69 +1,57 @@
-const suhairaProfile = {
-  name: "Suhaira",
-  age: 18,
-  isStudent: true,
-  bestFriends: ["Mahnoor", "Maryam"],
-  loves: "M",
-  favoriteColor: "Purple",
-  favoriteFood: "Pizza",
-  favoriteDrink: "Cold Coffee",
-  hobbies: ["Reading", "Drawing", "Writing"],
-  city: "Karachi",
-  country: "Pakistan",
-  birthYear: 2007,
-  hasPet: false,
-  dreamVacation: "Switzerland",
-  favoriteSubject: "English",
-  favoriteBook: "The Fault in Our Stars",
-  phone: "+92-300-0000000",
-  email: "suhaira@example.com",
-  isSocial: true,
-  favoriteApp: "Instagram",
-  heightCM: 160,
-  futureGoal: "ACCA",
-  favoriteSinger: "Kaavish",
-  favoriteMovie: "Tangled",
-  favoriteQuote: "Be yourself; everyone else is already taken.",
-  moodToday: "Happy",
-  zodiacSign: "Pisces",
-  languages: ["Urdu", "English"],
-  knownFor: "Kindness",
-  luckyNumber: 7,
-  friendsCount: 12,
-  playlist: ["Calm Down", "Let Me Down Slowly", "Perfect"],
-  hasLaptop: true,
-  laptopSpecs: {
-    brand: "HP",
-    ram: "8GB",
-    storage: "256GB SSD"
-  },
-  currentProject: "Learning JavaScript",
-  skills: ["HTML", "CSS", "JavaScript"],
-  favoriteSeason: "Winter",
-  favoriteFlower: "Lily",
-  likesCoding: true,
-  isIntrovert: false,
-  favoriteGame: "Ludo",
-  lovesRain: true,
-  siblings: 3,
-  favoriteFestival: "Eid",
-  religion: "Islam",
-  schoolName: "Pak Grammar School",
-  dailyRoutine: {
-    wakeup: "8 AM",
-    study: "10 AM - 2 PM",
-    chillTime: "4 PM - 6 PM",
-    sleep: "11 PM"
-  },
-  socialLinks: {
-    instagram: "@suhaira_loves_js",
-    github: "github.com/suhaira-js"
-  }
-};
+const obj1 = { name: "Suhaira", age: 18 };
+const obj2 = { bestFriends: ["Mahnoor", "Maryam"] };
+const obj3 = { friendshipSince: "School Time" };
+const obj4 = { suhairaHobbies: ["painting", "music", "cycling"] };
+const obj5 = { mahnoorTraits: ["kind", "funny", "loyal"] };
+const obj6 = { maryamTraits: ["caring", "intelligent", "supportive"] };
+const obj7 = { sharedDream: "Perform Umrah Together" };
+const obj8 = { favHangoutPlace: "School Canteen" };
+const obj9 = { groupName: "Mahila mitr" };
+const obj10 = { suhairaFavColor: "Purple" };
+const obj11 = { mahnoorFavColor: "Blue" };
+const obj12 = { maryamFavColor: "Pink" };
+const obj13 = { memory1: "Last day of school tears and laughter" };
+const obj14 = { memory2: "Matching dresses on Eid" };
+const obj15 = { schoolProject: "Science Fair Volcano Model" };
+const obj16 = { commonInterest: "Watching dramas together" };
+const obj17 = { suhairaFavSeason: "Winter" };
+const obj18 = { groupMotto: "Together Forever" };
+const obj19 = { quote: "Best friends are sisters we choose ourselves" };
+const obj20 = { groupEmojis: ["💖", "✨", "😂"] };
+const obj21 = { yearsOfFriendship: 7 };
+const obj22 = { firstMet: "In Grade 5" };
+const obj23 = { favSnack: "Chips from the tuck shop" };
+const obj24 = { suhairaFavSubject: "English" };
+const obj25 = { mahnoorFavSubject: "Biology" };
+const obj26 = { maryamFavSubject: "Math" };
+const obj27 = { groupChallenge: "Won the inter-class quiz" };
+const obj28 = { favMemoryTogether: "Bunking class for fun 😄" };
+const obj29 = { dailyChatStreak: true };
+const obj30 = { futurePlan: "Start a YouTube channel together" };
+const obj31 = { friendshipBadge: "Unbreakable Bond" };
+const obj32 = { favouriteFestival: "Eid" };
+const obj33 = { favDressCode: "Matching Kurtis" };
+const obj34 = { favActivity: "Late night voice notes" };
+const obj35 = { dreamVacation: "Turkey trip together" };
+const obj36 = { favQuoteTogether: "No new friends 😂" };
+const obj37 = { schoolName: "Future Stars Academy" };
+const obj38 = { favIceCream: "Chocolate Fudge" };
+const obj39 = { nicknames: { suhaira: "Suhu", mahnoor: "Mahi", maryam: "Mimi" } };
+const obj40 = { friendshipType: "Soul Sisters" };
+const obj41 = { birthdayMonth: "March" }; 
+const obj42 = { mahnoorBirthday: "1 March" };
+const obj43 = { maryamBirthday: "September 12" };
+const obj44 = { groupVibe: "Pure Love and Laughter" };
+const obj45 = { favSelfieSpot: "Classroom Window" };
+const obj46 = { groupPlaylist: ["Bekhayali", "Pasoori", "On My Way"] };
+const obj47 = { petDream: "Adopt a cat together" };
+const obj48 = { favEmoji: "💫" };
+const obj49 = { dailyMotivation: "You are enough 💪" };
+const obj50 = { foreverFriends: true };
 
-console.log("🌸 Name:", suhairaProfile.name);
-console.log("💖 Loves:", suhairaProfile.loves);
-console.log("👯 Best Friends:", suhairaProfile.bestFriends.join(", "));
-console.log("🎯 Goal:", suhairaProfile.futureGoal);
-console.log("📱 Favorite App:", suhairaProfile.favoriteApp);
-console.log("🎶 Playlist:", suhairaProfile.playlist);
+
+console.log(obj1);
+console.log(obj2.bestFriends);
+console.log(obj18.groupMotto);
+console.log(obj34.favActivity);
+console.log(obj50.foreverFriends);
